@@ -1,0 +1,41 @@
+<?xml version = "1.0" encoding = "utf-8" ?>
+<Timetable xmlns:myns = "http://www.itmo.ru/xml/lessons" xmlns:exns = "https://www.w3schools.com/xml/default.asp">
+	<myns:subjects>
+		<myns:subject id = "1">
+			<myns:name>Технологии программирования</myns:name>
+			<myns:teacher>Осипов Н.А.</myns:teacher>
+			<myns:startDate>29.09.2020</myns:startDate>
+			<myns:finishDate>16.10.2020</myns:finishDate>
+		</myns:subject>
+		
+		<myns:subject id = "2">
+			<myns:name>Программирование на C#</myns:name>
+			<myns:teacher>Осипов Н.А.</myns:teacher>
+			<myns:startDate>19.10.2020</myns:startDate>
+			<myns:finishDate>06.11.2020</myns:finishDate>
+		</myns:subject>
+	</myns:subjects>
+	
+	<exns:subjects>
+		<exns:subject id = "3">
+			<exns:name>Введение в базы данных</exns:name>
+			<exns:teacher>Осетрова И.С.</exns:teacher>
+			<exns:startDate>09.11.2020</exns:startDate>
+			<exns:finishDate>20.11.2020</exns:finishDate>
+		</exns:subject>
+		
+		<exns:subject id = "4">
+			<exns:name>Разработка Windows-приложений на C#</exns:name>
+			<exns:teacher>Смольянинов А.В.</exns:teacher>
+			<exns:startDate>23.11.2020</exns:startDate>
+			<exns:finishDate>17.12.2020</exns:finishDate>
+		</exns:subject>
+		
+		<exns:subject id = "5">
+			<exns:name>Основы технологий разметки</exns:name>
+			<exns:teacher>Смольянинов А.В.</exns:teacher>
+			<exns:startDate>18.12.2020</exns:startDate>
+			<exns:finishDate>28.12.2020</exns:finishDate>
+		</exns:subject>
+	</exns:subjects>
+</Timetable>

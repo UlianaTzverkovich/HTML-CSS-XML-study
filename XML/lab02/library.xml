@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE library SYSTEM "libraryDTD.dtd">
+<library>
+	<book_catalog>
+		<!--Zero or more repetitions:-->
+		<book id="идентификатор" isbn="номер" year="год" issue="translation">
+			<!--Optional:-->
+			<authors>
+				<!--1 or more repetitions:-->
+				<author>Автор</author>
+			</authors>
+			<title>Название</title>
+			<publishing>Дата публикации</publishing>
+			<annotation>Аннотация</annotation>
+		</book>
+	</book_catalog>
+	<author_catalog>
+		<!--Zero or more repetitions:-->
+		<author_book idref="id книги">Автор</author_book>
+	</author_catalog>
+</library>

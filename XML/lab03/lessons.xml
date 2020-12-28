@@ -1,0 +1,40 @@
+<?xml version = "1.0" encoding = "utf-8" ?>
+
+<timetable xmlns:xsi="lessons_XML.xml">
+	<subjects>
+		<subject id = "1">
+			<name>Технологии программирования</name>
+			<teacher>Осипов Н.А.</teacher>
+			<startDate>29.09.2020</startDate>
+			<finishDate>16.10.2020</finishDate>
+		</subject>
+		
+		<subject id = "2">
+			<name>Программирование на C#</name>
+			<teacher>Осипов Н.А.</teacher>
+			<startDate>19.10.2020</startDate>
+			<finishDate>06.11.2020</finishDate>
+		</subject>
+		
+		<subject id = "3">
+			<name>Введение в базы данных</name>
+			<teacher>Осетрова И.С.</teacher>
+			<startDate>09.11.2020</startDate>
+			<finishDate>20.11.2020</finishDate>
+		</subject>
+		
+		<subject id = "4">
+			<name>Разработка Windows-приложений на C#</name>
+			<teacher>Смольянинов А.В.</teacher>
+			<startDate>23.11.2020</startDate>
+			<finishDate>17.12.2020</finishDate>
+		</subject>
+		
+		<subject id = "5">
+			<name>Основы технологий разметки</name>
+			<teacher>Смольянинов А.В.</teacher>
+			<startDate>18.12.2020</startDate>
+			<finishDate>28.12.2020</finishDate>
+		</subject>
+	</subjects>
+</timetable>
